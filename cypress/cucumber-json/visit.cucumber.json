@@ -1,0 +1,281 @@
+[
+  {
+    "description": "  Claimant want to submit a claim in UK Appliance Cashback",
+    "keyword": "Feature",
+    "name": "Submit a Claim",
+    "line": 1,
+    "id": "submit-a-claim",
+    "tags": [],
+    "uri": "visit.feature",
+    "elements": [
+      {
+        "id": "submit-a-claim;claimant-submit-a-successful-claim",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Claimant submit a successful claim",
+        "tags": [
+          {
+            "name": "@reg",
+            "line": 5
+          },
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Claimant open Insyt promotion page",
+            "result": {
+              "status": "passed",
+              "duration": 3128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Claimant click launch promotion",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Claimant accept terms",
+            "result": {
+              "status": "passed",
+              "duration": 796000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Email",
+                      "Title",
+                      "FirstName",
+                      "LastName",
+                      "Phone",
+                      "DOB"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "p@g.com",
+                      "Mr",
+                      "Pradeep",
+                      "Kumar",
+                      "9890989089",
+                      "2 August 2002"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Claimant enters personal details",
+            "result": {
+              "status": "passed",
+              "duration": 5420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Claimant Click Next Button",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "PostCode",
+                      "Line1",
+                      "Line2",
+                      "City",
+                      "County"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "BT43 6DF",
+                      "McKillens Ltd",
+                      "78-90 Church Street",
+                      "Ballymena",
+                      "County Antrim"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Claimant enters address details",
+            "result": {
+              "status": "passed",
+              "duration": 3656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Claimant enter date of purchase as \"09 09 2020\"",
+            "result": {
+              "status": "passed",
+              "duration": 3336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Claimant select retailer as \"Jessops\"",
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Claimant select product as \"Mobile Phone\"",
+            "result": {
+              "status": "passed",
+              "duration": 762000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Claimant enter a random imei number",
+            "result": {
+              "status": "passed",
+              "duration": 960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Claimant enter \"20\" as product price",
+            "result": {
+              "status": "passed",
+              "duration": 2640000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Add Product",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Claimant Click Next Button",
+            "result": {
+              "status": "passed",
+              "duration": 241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Upload document \"pbox-1.pdf\"",
+            "result": {
+              "status": "passed",
+              "duration": 1199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Claimant Click Next Button",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Claimant Click Next Button",
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Type",
+                      "SortCode",
+                      "AccNo"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Pradeep",
+                      "Person",
+                      "50-40-30",
+                      "12389098"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Claimant enters bank details",
+            "result": {
+              "status": "passed",
+              "duration": 4991000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "Claimant Click Next Button",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

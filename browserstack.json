@@ -1,0 +1,49 @@
+{
+    "auth": {
+        "username": "pradeepgautam1",
+        "access_key": "jj4xJqz9UCkvtrzVtu3d"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "78",
+                "77"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+                "74"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_proj_dir": "D:\\my_work\\new_dcypress\\doc-cypress\\",
+        "project_name": "Like4Like",
+        "build_name": "FrontEndOnly",
+        "exclude": [],
+        "parallels": "Here goes the number of parallels you want to run",
+        "npm_dependencies": {
+            "cosmiconfig": "^7.0.0",
+    "cypress": "^5.1.0",
+    "cucumber-html-reporter": "5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-xpath": "^1.6.0",
+    "handlebars": "^4.7.6",
+    "mocha": "^8.1.3",
+    "mochawesome": "^6.1.1",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "vue-cli": "^2.9.3"
+        },
+        "package_config_options": {}
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null
+    },
+    "disable_usage_reporting": false
+}
